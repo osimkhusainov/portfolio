@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Montserrat:wght@700&display=swap');
+@import 'base/variables';
+
+* {
+    font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+@import 'blocks/start';
+@import 'blocks/about';
+@import 'blocks/skills';
+@import 'blocks/service';
+@import 'blocks/work';
+@import 'blocks/projects';
+@import 'blocks/contact';
+@import 'blocks/footer';
+@import 'blocks/media';

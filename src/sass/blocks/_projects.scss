@@ -1,0 +1,25 @@
+.experience {
+    background: url(../../img/bg4.png) center (center/cover) no-repeat;
+    padding: 89px 0 102px 0;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    &__titile {
+        font-family: 'Cormorant';
+        font-size: 100px;
+        line-height: 32px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__subtitle {
+        margin-top: -35px;
+        font-family: 'Cormorant';
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}

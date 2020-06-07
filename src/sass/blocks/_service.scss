@@ -1,0 +1,48 @@
+.service {
+    background: url(../../img/bg32.png) top (center/cover) no-repeat;
+    padding: 220px 0 0px 0;
+    background-size: contain;
+    &__wrapp {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+    }
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 41px;
+    }
+    &__subtitle {
+        margin-top: 18px;
+        font-family: 'Cormorant';
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__descr {
+        max-width: 280px;
+    }
+    &__text {
+        opacity: 0.9;
+        font-family: 'Cormorant';
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: $main-color;
+        text-align: center;
+    }
+}
+.content {
+    // display: none;
+    box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.15);
+    max-width: 1200px;
+    min-height: 593px;
+    background-color: #ffffff;
+    padding: 120px 100px 120px 100px;
+    margin-bottom: 102px;
+}
+.three {
+    margin-top: -15px;
+}
